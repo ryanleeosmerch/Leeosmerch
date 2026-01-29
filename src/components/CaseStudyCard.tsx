@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CaseStudy } from "@/content/caseStudies";
 
+
 export function CaseStudyCard({ cs }: { cs: CaseStudy }) {
   return (
     <Link
